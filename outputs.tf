@@ -1,0 +1,1 @@
+output "token" { value = sensitive(data.external.token.result.token) }
